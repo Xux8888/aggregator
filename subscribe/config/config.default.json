@@ -1,14 +1,26 @@
 {
-    "domains": [],
+    "domains": [
+        {
+            "name": "open-source-freefq",
+            "sub": [
+                "https://raw.githubusercontent.com/freefq/free/master/v2ray"
+            ],
+            "push_to": ["free"]
+        }
+    ],
     "crawl": {
         "enable": true,
         "telegram": {
             "enable": true,
+            "pages": 3,
             "users": {
                 "NodeFree": {
                     "push_to": ["free"]
                 },
                 "clash_node": {
+                    "push_to": ["free"]
+                },
+                "v2ray_free_node": {
                     "push_to": ["free"]
                 }
             }
@@ -23,11 +35,7 @@
     },
     "storage": {
         "engine": "gist",
-        "items": {
-            "free-clash": {
-                "id": "36d6ad314eec0525daeba548b33cbdd0",
-                "filename": "clash.yaml"
-            }
-        }
+        "id": "36d6ad314eec0525daeba548b33cbdd0",
+        "filename": "clash.yaml"
     }
 }
