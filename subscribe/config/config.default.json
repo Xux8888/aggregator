@@ -35,7 +35,11 @@
     },
     "storage": {
         "engine": "gist",
+        "token": "",
         "id": "36d6ad314eec0525daeba548b33cbdd0",
+        "gist_id": "36d6ad314eec0525daeba548b33cbdd0",
+        "gistid": "36d6ad314eec0525daeba548b33cbdd0",
+        "username": "Xux8888",
         "filename": "clash.yaml"
     }
 }
