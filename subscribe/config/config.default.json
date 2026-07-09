@@ -1,17 +1,14 @@
 {
-    "domains": [
-        {
-            "name": "example-airport",
-            "domain": "example.com",
-            "push_to": ["free"]
-        }
-    ],
+    "domains": [],
     "crawl": {
         "enable": true,
         "telegram": {
             "enable": true,
             "users": {
-                "proxy_channel": {
+                "NodeFree": {
+                    "push_to": ["free"]
+                },
+                "clash_node": {
                     "push_to": ["free"]
                 }
             }
@@ -28,8 +25,7 @@
         "engine": "gist",
         "items": {
             "free-clash": {
-                "username": "Xux8888",
-                "gistid": "36d6ad314eec0525daeba548b33cbdd0",
+                "id": "36d6ad314eec0525daeba548b33cbdd0",
                 "filename": "clash.yaml"
             }
         }
